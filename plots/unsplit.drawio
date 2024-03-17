@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T14:54:08.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="WRAnhYpACI66UzpguyGK" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T15:46:21.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="oiGV3lD46U6WXmrN1joa" version="24.0.2" type="github">
   <diagram name="Page-1" id="ru8x-6SEYgcmRr3bDYl3">
     <mxGraphModel dx="4563" dy="6198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-17" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Unsorted&lt;/font&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=90;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="-5010" width="2950" height="2140" as="geometry" />
+          <mxGeometry x="1450" y="-4960" width="2970" height="2140" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-67" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;The Maze&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#FFEE03;strokeColor=#9673a6;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-17">
           <mxGeometry x="360" y="20" width="1050" height="490" as="geometry" />
@@ -156,14 +156,26 @@
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-81" value="&lt;div align=&quot;center&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Unsorted notes, snippets, modules, etc. that need to be put into their own sections eventually.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-17">
           <mxGeometry x="90" width="200" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="hJwXs7jUDwG8n3oh1j8G-18" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Pocket Dimensions&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="-4370" width="1050" height="440" as="geometry" />
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-82" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Spell Targets&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-17">
+          <mxGeometry x="1490" y="50" width="970" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=1;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-82">
+          <mxGeometry y="50" width="970" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-84" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-82">
+          <mxGeometry x="50" y="191.25" width="320" height="358.75" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-85" value="&lt;h1 align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Halo/Orbital&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;A glowing ring of energy that moves with the player. It serves multiple purposes; as a temporary external store of magical energy, magically-powered bulk item storage space to use for spells that require storage or (just to hold all that cobble), or used as a marker to help target spells.&amp;nbsp; &lt;br&gt;The ring can be resized, reshaped and moved from it&#39;s default location above the owner&#39;s head by spell components (costing energy to do so).&lt;br&gt;Entities and blocks inside it&#39;s boundary can be more easily detected and targeted by the owner&#39;s spells, allowing it to serve as a visual marker for spells.&lt;br&gt;&lt;br&gt;Element-bound players will have a miniature matching-colored orbital above their head by default, as a crown of sorts. It can be suppressed using magical energy.&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-82">
+          <mxGeometry x="60" y="191.25" width="300" height="338.75" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-18" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Pocket Dimensions&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-17">
+          <mxGeometry x="360" y="640" width="1050" height="440" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=1;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-18">
-          <mxGeometry y="50" width="1050" height="110" as="geometry" />
+          <mxGeometry y="50" width="1050" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hJwXs7jUDwG8n3oh1j8G-20" value="&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Small module that allows the creation of tiny, personal dimensions for players that can be accessed from nearly anywhere. Makes heavy use of iPortal.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="-4320" width="1010" height="110" as="geometry" />
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-20" value="&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Small module that allows the creation of tiny, personal dimensions for players that can be accessed from nearly anywhere. Makes heavy use of iPortal.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-19">
+          <mxGeometry x="30" y="10" width="1010" height="110" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-32" value="&lt;div style=&quot;font-size: 32px;&quot;&gt;Magus Module&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=80;" vertex="1" parent="1">
           <mxGeometry x="-2740" y="-4340" width="1740" height="720" as="geometry" />
