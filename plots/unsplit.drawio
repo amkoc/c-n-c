@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2024-03-17T01:45:07.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="71IS495YITjsdg3IYANr" version="24.0.2" type="github">
+  <diagram name="Page-1" id="ru8x-6SEYgcmRr3bDYl3">
+    <mxGraphModel dx="2478" dy="2077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-1" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Player exits as...&lt;/font&gt;&lt;/div&gt;" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=40;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="140" width="1530" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-2" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;... ghost&lt;/font&gt;&lt;/div&gt;" style="swimlane;startSize=20;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="r1Zy6kbpca9WmV-mYbv3-1" vertex="1">
+          <mxGeometry y="40" width="510" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-15" value="&lt;div&gt;Player exits to...&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" parent="r1Zy6kbpca9WmV-mYbv3-2" vertex="1">
+          <mxGeometry x="120" y="230" width="260" height="280" as="geometry">
+            <mxRectangle x="580" y="230" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-16" value="... last death location" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;comic=0;strokeColor=default;imageWidth=24;imageAspect=1;" parent="r1Zy6kbpca9WmV-mYbv3-15" vertex="1">
+          <mxGeometry y="30" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-17" value="&lt;div&gt;... generated location (i.e, fissure)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-15" vertex="1">
+          <mxGeometry y="80" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-18" value="&lt;div style=&quot;&quot;&gt;... preset respawn &lt;font style=&quot;font-size: 12px;&quot;&gt;(typically bed or anchor)&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-15" vertex="1">
+          <mxGeometry y="130" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-19" value="&lt;div&gt;... summoned location (via &lt;font color=&quot;#9999ff&quot;&gt;spell&lt;/font&gt;, etc)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-15" vertex="1">
+          <mxGeometry y="180" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-20" value="&lt;div&gt;... dim worldspawn (default Overworld or &lt;font color=&quot;#9999ff&quot;&gt;bound &lt;/font&gt;dim)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-15" vertex="1">
+          <mxGeometry y="230" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-3" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;... undead&lt;/font&gt;&lt;/div&gt;" style="swimlane;startSize=20;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="r1Zy6kbpca9WmV-mYbv3-1" vertex="1">
+          <mxGeometry x="510" y="40" width="510" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-21" value="&lt;div&gt;Player exits to...&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" parent="r1Zy6kbpca9WmV-mYbv3-3" vertex="1">
+          <mxGeometry x="125" y="230" width="260" height="280" as="geometry">
+            <mxRectangle x="580" y="230" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-22" value="... last death location" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;comic=0;strokeColor=default;imageWidth=24;imageAspect=1;" parent="r1Zy6kbpca9WmV-mYbv3-21" vertex="1">
+          <mxGeometry y="30" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-23" value="&lt;div&gt;... generated location (i.e, fissure)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-21" vertex="1">
+          <mxGeometry y="80" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-24" value="&lt;div style=&quot;&quot;&gt;... preset respawn &lt;font style=&quot;font-size: 12px;&quot;&gt;(typically bed or anchor)&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-21" vertex="1">
+          <mxGeometry y="130" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-25" value="&lt;div&gt;... summoned location (via &lt;font color=&quot;#9999ff&quot;&gt;spell&lt;/font&gt;, etc)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-21" vertex="1">
+          <mxGeometry y="180" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-26" value="&lt;div&gt;... dim worldspawn (default Overworld or &lt;font color=&quot;#9999ff&quot;&gt;bound &lt;/font&gt;dim)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-21" vertex="1">
+          <mxGeometry y="230" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-4" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;... live player&lt;/font&gt;&lt;/div&gt;" style="swimlane;startSize=20;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="r1Zy6kbpca9WmV-mYbv3-1" vertex="1">
+          <mxGeometry x="1020" y="40" width="510" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-27" value="&lt;div&gt;Player exits to...&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" parent="r1Zy6kbpca9WmV-mYbv3-4" vertex="1">
+          <mxGeometry x="125" y="230" width="260" height="280" as="geometry">
+            <mxRectangle x="580" y="230" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-28" value="... last death location" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;comic=0;strokeColor=default;imageWidth=24;imageAspect=1;" parent="r1Zy6kbpca9WmV-mYbv3-27" vertex="1">
+          <mxGeometry y="30" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-29" value="&lt;div&gt;... generated location (i.e, fissure)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-27" vertex="1">
+          <mxGeometry y="80" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-30" value="&lt;div style=&quot;&quot;&gt;... preset respawn &lt;font style=&quot;font-size: 12px;&quot;&gt;(typically bed or anchor)&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-27" vertex="1">
+          <mxGeometry y="130" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-31" value="&lt;div&gt;... summoned location (via &lt;font color=&quot;#9999ff&quot;&gt;spell&lt;/font&gt;, etc)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-27" vertex="1">
+          <mxGeometry y="180" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-32" value="&lt;div&gt;... dim worldspawn (default Overworld or &lt;font color=&quot;#9999ff&quot;&gt;bound &lt;/font&gt;dim)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-27" vertex="1">
+          <mxGeometry y="230" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-40" value="Passes through central gate..." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="970" y="-120" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NXboeLwOr5gCQjajVLQA-1" value="&lt;div&gt;... at sunrise in Overworld (&#39;green flash&#39;)&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="r1Zy6kbpca9WmV-mYbv3-40">
+          <mxGeometry y="30" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-41" value="... at sunset in Overworld (&#39;green flash&#39;)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-40" vertex="1">
+          <mxGeometry y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-43" value="... in the middle of the night" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-40" vertex="1">
+          <mxGeometry y="110" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r1Zy6kbpca9WmV-mYbv3-42" value="... any other time of day" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="r1Zy6kbpca9WmV-mYbv3-40" vertex="1">
+          <mxGeometry y="150" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NXboeLwOr5gCQjajVLQA-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NXboeLwOr5gCQjajVLQA-1" target="r1Zy6kbpca9WmV-mYbv3-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="-60" as="sourcePoint" />
+            <mxPoint x="1240" y="-10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1270" y="-70" />
+              <mxPoint x="1270" y="220" />
+              <mxPoint x="1270" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NXboeLwOr5gCQjajVLQA-4" value="Comment1 body" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="-180" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
