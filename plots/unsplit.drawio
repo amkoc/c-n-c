@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T03:15:55.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="Jajk9E4OCIrokpLnhFNq" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T14:44:00.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="lMIkIARsnqj3cDznZ2W6" version="24.0.2" type="github">
   <diagram name="Page-1" id="ru8x-6SEYgcmRr3bDYl3">
-    <mxGraphModel dx="6453" dy="8433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4563" dy="6198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hJwXs7jUDwG8n3oh1j8G-27" value="" style="swimlane;startSize=0;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-25">
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-27" value="" style="swimlane;startSize=0;rounded=0;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-25">
           <mxGeometry y="30" width="320" height="340" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-5" value="&lt;h1 align=&quot;center&quot;&gt;Limbo (Dimension)&lt;br&gt;&lt;/h1&gt;&lt;p&gt;A dark dimension of ghosts. Players end up here instead of the standard instant respawn.&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;fillStyle=auto;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-27">
@@ -117,13 +117,25 @@
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-29" value="" style="swimlane;startSize=0;rotation=90;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-1">
           <mxGeometry x="-760" y="840" width="1880" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="hJwXs7jUDwG8n3oh1j8G-30" value="&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Contains the ghost mechanics, modified respawn mechanics and relevant gameplay, and the namesake dimension.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-29">
-          <mxGeometry x="840" y="-840" width="200" height="150" as="geometry" />
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-30" value="&lt;div align=&quot;center&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Contains the ghost mechanics, modified death/respawn gameplay, and the namesake dimension where players will be sent after their ghost fades out of the previous world.&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-29">
+          <mxGeometry x="840" y="-840" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-73" value="Relevant libraries/modules:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-1">
+          <mxGeometry x="80" y="320" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-74" value="&lt;div&gt;Core Module&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-73">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-75" value="&lt;div&gt;Portal Module&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-73">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-76" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-73">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-14" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-40" y="-3650" width="1130" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="hJwXs7jUDwG8n3oh1j8G-7" value="&lt;h1 style=&quot;font-size: 48px;&quot; align=&quot;center&quot;&gt;Needlessly Large Flowchart&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 18px;&quot; align=&quot;center&quot;&gt;An attempt to describe the mod&#39;s desired gameplay and event flow along with miscellaneous notes that should probably end up in a wiki.&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-7" value="&lt;h1 style=&quot;font-size: 48px;&quot; align=&quot;center&quot;&gt;Needlessly Large Flowchart&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 18px;&quot; align=&quot;center&quot;&gt;An attempt to describe the mod&#39;s desired gameplay and event flow along with miscellaneous notes that should probably end up in a wiki.&lt;br&gt;You think this is bad, you should see the inside of my head.&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="170" y="-3650" width="710" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hJwXs7jUDwG8n3oh1j8G-14" target="hJwXs7jUDwG8n3oh1j8G-14">
@@ -136,10 +148,13 @@
           <mxGeometry x="1340" y="-5010" width="2950" height="2140" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-67" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;The Maze&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#FFEE03;strokeColor=#9673a6;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-17">
-          <mxGeometry x="360.0000000000009" y="20" width="1050" height="440" as="geometry" />
+          <mxGeometry x="360" y="20" width="1050" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="hJwXs7jUDwG8n3oh1j8G-68" value="The Maze is an infinitely generated, ever-shifting labyrinth, filled with various traps and dungeons. &lt;br&gt;&lt;div&gt;Composed of randomly-selected, pre-built &#39;tiles&#39; rather than terrain, with the connections between sections opening and shutting at regular intervals and via player interaction. Players entering the Maze are locked in an Adventure-mode like state, to keep them from modifying their surroundings and simply tunneling through the maze.&lt;br&gt;In addition to interesting and often unique loot, players will be able to use the Maze as a shortcut between dimensions, as it connects to all, including Limbo and the elemental worlds.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=1;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-67">
-          <mxGeometry y="50" width="1050" height="100" as="geometry" />
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-68" value="&lt;div&gt;The Maze is an infinitely generated, ever-shifting labyrinth dimension, filled with various traps and dungeons containing miniboss mobs. &lt;/div&gt;&lt;div&gt;Composed of randomly-selected, pre-built &#39;tiles&#39; rather than terrain, with the path though tiles shifting and the connections between them opening and shutting at regular intervals or via player interaction, to ensure even explored sections of the maze remain challenging. Players entering the Maze are locked in an Adventure-mode like state, to keep them from modifying their surroundings and simply tunneling through the maze.&lt;br&gt;In addition to interesting and often unique loot, players will be able to use the Maze as a travel shortcut across dimensions, as it highly compressed and connects to all dimensions, including Limbo and the elemental worlds.&lt;br&gt;Some areas, especially those near portals to elemental worlds, will have special, themed sections that begin to generate around the portal (i.e a nether-and-lava tileset for the nether world, or a tileset incorporating invisible sections for the air portal). Players can enter the Maze at any point by building or finding a portal, but must wind their way thorough the maze to exit again.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=1;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-67">
+          <mxGeometry y="50" width="1050" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-81" value="&lt;div align=&quot;center&quot;&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 14px;&quot;&gt;Unsorted notes, snippets, modules, etc. that need to be put into their own sections eventually.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-17">
+          <mxGeometry x="90" width="200" height="320" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-18" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Pocket Dimensions&lt;/font&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1710" y="-4370" width="1050" height="440" as="geometry" />
@@ -151,22 +166,31 @@
           <mxGeometry x="1730" y="-4320" width="1010" height="110" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-32" value="&lt;div style=&quot;font-size: 32px;&quot;&gt;Magus Module&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=80;" vertex="1" parent="1">
-          <mxGeometry x="-2740" y="-4340" width="1740" height="1410" as="geometry" />
+          <mxGeometry x="-2740" y="-4340" width="1740" height="720" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-64" value="" style="swimlane;startSize=0;rotation=90;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-32">
-          <mxGeometry x="-525" y="605" width="1410" height="200" as="geometry" />
+          <mxGeometry x="-180.93" y="260.94" width="721.87" height="200" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-65" value="&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Contains the mechanics for the mod&#39;s primary spell system.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-64">
-          <mxGeometry x="605" y="-605" width="200" height="150" as="geometry" />
+          <mxGeometry x="261" y="-260" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-69" value="&lt;div style=&quot;font-size: 32px;&quot;&gt;Core Module&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=80;" vertex="1" parent="1">
-          <mxGeometry x="-2740" y="-5810" width="1740" height="1410" as="geometry" />
+          <mxGeometry x="-2740" y="-5190" width="1740" height="790" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-70" value="" style="swimlane;startSize=0;rotation=90;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-69">
-          <mxGeometry x="-525" y="605" width="1410" height="200" as="geometry" />
+          <mxGeometry x="-212.5" y="292.5" width="785" height="200" as="geometry" />
         </mxCell>
         <mxCell id="hJwXs7jUDwG8n3oh1j8G-71" value="&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Contains utility functions and gameplay features shared by many modules.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-70">
-          <mxGeometry x="605" y="-604" width="200" height="150" as="geometry" />
+          <mxGeometry x="293" y="-291" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-78" value="&lt;div style=&quot;font-size: 32px;&quot;&gt;Gods and Priests Module&lt;br&gt;&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=80;" vertex="1" parent="1">
+          <mxGeometry x="-2740" y="-3560" width="1740" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-79" value="" style="swimlane;startSize=0;rotation=90;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-78">
+          <mxGeometry x="-180.93" y="260.94" width="721.87" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hJwXs7jUDwG8n3oh1j8G-80" value="&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Contains the mod&#39;s AI-powered secondary spell system.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="hJwXs7jUDwG8n3oh1j8G-79">
+          <mxGeometry x="261" y="-260" width="200" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
